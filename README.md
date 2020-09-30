@@ -1,8 +1,7 @@
 # CheckInternet
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 
-![Alt text](/screenshots/online.png?raw=true "Screen1") 
-![Alt text](/screenshots/offline.png?raw=true "Screen2") 
+![Alt text](/screenshots/screen.png?raw=true "Screen1") 
 
 ## Development server
 
