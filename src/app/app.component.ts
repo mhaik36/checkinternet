@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
 })
 export class AppComponent {
   title = 'checkInternet';
-  textContent = ""
+  textContent = "......"
   //function to check the internet connection
     ngOnInit(){
       this.initService()
@@ -26,9 +26,7 @@ export class AppComponent {
     initService() {
       setInterval(async () => {
         const result = await this.checkOnlineStatus();
-        console.log(result)
-
-        this.textContent = result ? "Đang online!" : "Đang offline!";
+        this.textContent = result ? "online" : "offline";
       }, 3000); // probably too often, try 30000 for every 30 seconds
     }
 }
